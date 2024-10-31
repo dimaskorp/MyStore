@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyStore</string>
+    <string name="payment"><big>Оплата<br/>
+    <small><font color="#717171">Карта *4567</font></small></big></string>
+    <string name="my_address"><big>Мой адрес</big></string>
+    <string name="my_orders"><big>Мои заказы</big></string>
+    <string name="favorites"><big>Избранное</big></string>
+    <string name="news"><big>Новости</big></string>
+    <string name="coupons"><big>Купоны</big></string>
+    <string name="about_us"><big>О нас</big></string>
+    <string name="invite_friends"><big>Пригласить друзей</big></string>
+    <string name="settings"><big>Настройки</big></string>
+    <string name="contact_us">Связаться с нами</string>
+    <string name="invite"><big>Пригласить друзей</big></string>
+</resources>
