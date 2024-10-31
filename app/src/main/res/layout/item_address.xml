@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingEnd="16dp"
+            android:src="@drawable/location" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_street"
+                style="@style/body_text"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ленина ул., 113" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/body_text"
+                android:textColor="@color/white_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ижевск, республика Удмуртия, Россия" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
